@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Project specific
+corpora/*
+!corpora/unigrams.csv
+.Rproj.user
+.RData
+.Rhistory
+r_analysis/.Rhistory
+checkpoints/
+results/

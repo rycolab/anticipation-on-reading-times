@@ -1,0 +1,28 @@
+name: anticipation-on-reading
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - scikit-learn
+  - tqdm
+  - matplotlib
+  - scipy
+  - pylint
+  - pip
+  - pip:
+    - seaborn
+    - ipdb
+    - statsmodels
+    - mosestokenizer
+    - gdown
+    - tzlocal
+    - simplegeneric
+    - nltk
+    - notebook
+    - sacremoses
+    - intervaltree
+    - rpy2
